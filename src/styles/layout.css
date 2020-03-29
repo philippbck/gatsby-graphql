@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: local('Quicksand-Light'), local('Quicksand-Light'), url(../fonts/Quicksand/Quicksand-Light.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: local('Quicksand-Regular'), local('Quicksand-Regular'), url(../fonts/Quicksand/Quicksand-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: local('Quicksand-Bold'), local('Quicksand-Bold'), url(../fonts/Quicksand/Quicksand-Bold.ttf) format('truetype');
+}
+
+
+h1 {
+  font-family:'Quicksand-Bold', sans-serif;
+  text-align: left;
+  color: #100E34;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family:'Quicksand-Bold', sans-serif;
+  text-align: left;
+  color: #100E34;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Quicksand-Regular', sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  letter-spacing: 0.2px;
+  color: #100E34;
+}
+
+.headline-separator {
+  display: block;
+  width: 7.0rem;
+  height: 0.3125rem;
+  margin: 0;
+  background-color: #4F48EC;
+  border: 0;
+}
